@@ -41,7 +41,7 @@ fun play(computerInput:String?,userInput:String?): String {
     } else if (computerInput == "Paper" && userInput == "Rock") {
         return "Computer wins! You lose!"
     } else {
-        return "error"
+        return "Error"
     }
 }
 
