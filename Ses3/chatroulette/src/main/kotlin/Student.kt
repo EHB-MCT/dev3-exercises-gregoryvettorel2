@@ -1,6 +1,10 @@
 class Student(override val name: String): Person(name){
 
-fun gossip(){
-    println("psshpsshpsshpssh")
+    override fun talk(){
+    gossip()
+    }
+
+    fun gossip(){
+        println("psshpsshpsshpssh")
     }
 }

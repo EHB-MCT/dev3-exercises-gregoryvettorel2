@@ -1,13 +1,7 @@
 fun main() {
-    //OPDRACHT 1
-    val people = listOf(Person("Joost"), Person("Lies"))
+    val people = listOf(Student("Joost"), Teacher("Lies"), Comedian("Mike"), Chatbot())
 
     val randomPerson = people.random()
-    val randomName = randomPerson.name
-
-    randomPerson.introducte(randomName)
-    //
-
-    val dude = Comedian("Bert")
-
+    randomPerson.introduce()
+    randomPerson.talk()
 }
